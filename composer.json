@@ -1,0 +1,31 @@
+{
+    "name": "davidpiesse/nova-avatars",
+    "description": "Additional Avatar Fields such as Identicon",
+    "keywords": [
+        "laravel",
+        "nova",
+        "identicon"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "yzalis/identicon": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davidpiesse\\NovaAvatars\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidpiesse\\NovaAvatars\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
