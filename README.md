@@ -1,6 +1,7 @@
 # Nova Avatars
-
 Additional avatar field options for when Gravatar is not what you want!
+
+![Identicon](https://res.cloudinary.com/davidpiesse/image/upload/v1535492012/Screen_Shot_2018-08-28_at_22.32.44_sijtja.png)
 
 ## Included Avatars
 * Identicons
