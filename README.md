@@ -25,7 +25,7 @@ use Davidpiesse\NovaAvatars\Identicon;
 public function fields(Request $request)
     {
         return [
-            ... 
+            ...
             Identicon::make(),
             ...
         ]
@@ -40,3 +40,15 @@ Identicon::make()
 Identicon::make('Avatar', 'email_address')
 ```
 
+```php
+// Using the "email" column...
+Initials::make()
+
+// Using the "email_address" column...
+Initials::make('Avatar', 'email_address')
+```
+
+You can publish config
+```php
+php artisan vendor:publish --provider="Laravolt\Avatar\ServiceProvider"
+```
