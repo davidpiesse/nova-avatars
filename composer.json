@@ -8,9 +8,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "laravolt/avatar": "^2.0",
-        "yzalis/identicon": "^1.2"
+        "php": ">=7.3.0",
+        "laravolt/avatar": "^4.0",
+        "yzalis/identicon": "^2.0"
     },
     "autoload": {
         "psr-4": {
